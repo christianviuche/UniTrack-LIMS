@@ -18,9 +18,9 @@ By managing complex **Many-to-Many relationships** (e.g., one Program utilizes m
 
 ---
 
-## 📊 Data Model: Advanced Hierarchical Entity-Relationship (6 Tables)
+## 📊 Data Model: Advanced Hierarchical Entity-Relationship (7 Tables)
 
-The system is built on a **six-table relational model** that accurately reflects the university's resource structure. This design highlights the project's complexity by enforcing a hierarchical structure and managing shared resources through a **Many-to-Many (M:M)** relationship.
+The system is built on a **seven-table relational model** that accurately reflects the university's resource structure and the core inventory management. This design highlights the project's complexity by enforcing a hierarchical structure and managing shared resources through a **Many-to-Many (M:M)** relationship.
 
 ### Core Structure:
 1.  **FACULTIES (1:M) -> ACADEMIC_PROGRAMS**
